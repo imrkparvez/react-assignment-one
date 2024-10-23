@@ -29,14 +29,14 @@ const Header = () => {
             <div className="sm:flex">
               <Link
                 to="/signin"
-                className="flex-1 loginBtn px-1 py-2 text-xs sm:px-[22px] sm:py-2 sm:text-base font-medium text-white hover:opacity-70"
+                className="flex-1 loginBtn px-3 py-1 sm:px-[22px] sm:py-2 text-base font-medium text-white hover:opacity-70"
                 aria-label="Sign In"
               >
                 Sign In
               </Link>
               <Link
                 to="/signup"
-                className="signUpBtn rounded-md bg-white bg-opacity-20 py-1 px-2 text-xs sm:px-6 sm:py-2 sm:text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"
+                className="signUpBtn rounded-md bg-white bg-opacity-20 py-1 px-3 sm:px-6 sm:py-2 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"
                 aria-label="Sign Up"
               >
                 Sign Up
